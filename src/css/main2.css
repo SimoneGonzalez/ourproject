@@ -79,6 +79,7 @@
   padding: 0 2%;
   color: #6e1849;
   font: 1.2em chunkfiveroman;
+  font-weight: bold;
 }
 
 .top-bar-section ul li:last-child {
