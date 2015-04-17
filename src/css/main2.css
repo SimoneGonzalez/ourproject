@@ -133,3 +133,12 @@
   border-left: 1px solid #b6e4e5;
 }
 
+/** new css **/
+
+.body-wrapper {
+  background: #58D0D4;
+}
+
+.body-wrapper .small-10 .columns {
+  background: #fff;
+}
