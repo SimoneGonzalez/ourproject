@@ -1,0 +1,130 @@
+/* SIGN IN, SIGN UP */
+
+#sign-in {
+  color: #5aadb2;
+  font-size: .8em;
+  padding-right: 9%;
+  margin-bottom: 18%;
+  margin-top: -18%;
+}
+
+#sign-in a+a:before {
+  content: '| ';
+}
+
+/* TOP SECTION */
+
+.header-wrapper {
+  background-color: #d6f1f0;
+}
+
+#header-box {
+  background-color: white;
+  border-radius: 50px 50px 0 0;
+  height: 146px;
+  margin-top: 5%;
+}
+
+#header-box div.small-6:nth-child(1) {
+  margin-top: -40px;
+  margin-bottom: -27px;
+  z-index: 4;
+}
+
+#header-box div.small-6:nth-child(2) {
+  margin-top: 5%;
+}
+
+.buttons li {
+  line-height: 1px;
+  width: 25%;
+}
+
+.buttons li:nth-child(1) {
+  background-color: #78cbd0;
+}
+
+.buttons li:nth-child(2) {
+  background-color: #8db639;
+}
+
+.buttons li:nth-child(3) {
+  background-color: #6f308c;
+}
+
+.buttons li:nth-child(4) {
+  background-color: #e9168c;
+}
+
+#header-box div.small-6 div.small-12 {
+  margin-top: 2%;
+}
+
+/* NAVIGATION BAR */
+
+.top-bar,
+.top-bar ul li,
+.top-bar-section li a:not(.button) {
+  background-color: #f4cbd3;
+}
+
+.top-bar-section {
+  padding-left: 22%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.top-bar-section ul li {
+  margin-top: 1%;
+  padding: 0 2%;
+  color: #6e1849;
+  font: 1.2em chunkfiveroman;
+}
+
+.top-bar-section ul li:last-child {
+  margin-top: 0;
+  padding: 0;
+}
+
+.top-bar-section .has-form {
+  width: 200px;
+  background-color: #f4cbd3;
+}
+
+.has-form div.row-collapse div.small-12 {
+  background-color: #f4cbd3;
+}
+
+.has-form div.row-collapse div.small-12 input {
+  border: 1px solid #e39fab;
+  font-family: sans-serif;
+  color: #f7d7dd;
+  background: url(/img/search.gif) no-repeat 7px 7px;
+  background-color: white;
+  padding-left: 10px;
+  max-width: 150px;
+}
+
+/* FOOTER */
+
+.inline-list {
+  display: table;
+  margin: 3% auto;
+}
+
+.inline-list li:first-child {
+  margin-left: 0;
+}
+
+
+.inline-list a {
+  color: #b6e4e5;
+  font-size: .8em;
+}
+
+.inline-list li+li a:before {
+  content: '  ';
+  padding-left: 22px;
+  border-left: 1px solid #b6e4e5;
+}
+
