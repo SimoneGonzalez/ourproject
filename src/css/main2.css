@@ -3,9 +3,9 @@
 #sign-in {
   color: #5aadb2;
   font-size: .8em;
-  padding-right: 9%;
-  margin-bottom: 18%;
-  margin-top: -18%;
+  padding-right: 45px;
+  margin-bottom: 45px;
+  margin-top: -75px;
 }
 
 #sign-in a+a:before {
@@ -22,7 +22,7 @@
   background-color: white;
   border-radius: 50px 50px 0 0;
   height: 146px;
-  margin-top: 5%;
+  margin-top: 100px;
 }
 
 #header-box div.small-6:nth-child(1) {
@@ -32,7 +32,7 @@
 }
 
 #header-box div.small-6:nth-child(2) {
-  margin-top: 5%;
+  margin-top: 50px;
 }
 
 .buttons li {
@@ -139,6 +139,14 @@
   background: #58D0D4;
 }
 
-.body-wrapper .small-10 .columns {
-  background: #fff;
+.body-wrapper {
+  padding: 15px;
+}
+
+.search-refine {
+  background: #E1FFCF;
+}
+
+.search-results {
+  background: #E1FFCF;
 }
