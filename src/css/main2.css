@@ -140,5 +140,15 @@
 }
 
 .body-wrapper .small-10 .columns {
+  background: #f90;
+}
+
+.left-panel {
   background: #fff;
+  padding: 20px 20px 0;
+}
+
+.refine-search {
+  border-radius: 20px;
+  background: #E1FFCF;
 }
