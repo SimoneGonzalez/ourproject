@@ -135,16 +135,13 @@
 
 /** new css **/
 
-.body-wrapper {
-  background: #58D0D4;
-}
 
-.body-wrapper .small-10 .columns {
-  background: #f90;
+.body-wrapper .small-10 .columns{
+  background: #fff;
+  border-radius: 0 0 30px 30px;
 }
 
 .left-panel {
-  background: #fff;
   padding: 20px 20px 0;
 }
 
@@ -152,3 +149,8 @@
   border-radius: 20px;
   background: #E1FFCF;
 }
+
+.body-wrapper, .footer {
+  background: #58D0D4;
+}
+
