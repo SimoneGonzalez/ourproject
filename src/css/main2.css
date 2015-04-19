@@ -135,17 +135,23 @@
 
 /** new css **/
 
-
-.body-wrapper .small-10 .columns{
+.left-panel, .right-panel {
   background: #fff;
-  border-radius: 0 0 30px 30px;
+  min-height: 500px;
 }
 
 .left-panel {
-  padding: 20px 20px 0;
+  border-radius: 0 0 0 30px;
+  padding: 20px 25px 0 20px;
+}
+
+.right-panel {
+  border-radius: 0 0 30px 0;
+  padding: 20px 20px 60px 25px;
 }
 
 .refine-search {
+  padding: 15px;
   border-radius: 20px;
   background: #E1FFCF;
 }
