@@ -139,14 +139,16 @@
   background: #58D0D4;
 }
 
-.body-wrapper {
-  padding: 15px;
+.body-wrapper .row .large-4 {
+  background: #fff;
+  padding: 20px 40px 0;
 }
 
 .search-refine {
   background: #E1FFCF;
+  border-radius: 30px;
 }
 
-.search-results {
-  background: #E1FFCF;
+.row {
+  max-width: 75rem;
 }
