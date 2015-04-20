@@ -211,3 +211,13 @@ h2 {
 ul.pagination li.current a, ul.pagination li.current button {
   background: #317900;
 }
+
+.radio-indent div {
+  display: block;
+}
+
+.radio-indent input {
+  margin-left: 25px;
+  display: inline-block;
+}
+
