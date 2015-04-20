@@ -206,3 +206,7 @@ h2 {
   color:#E1FFCF;
   background-color: #317900;
 }
+
+ul.pagination li.current a, ul.pagination li.current button {
+  background: #317900;
+}
