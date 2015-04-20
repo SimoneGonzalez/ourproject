@@ -137,23 +137,28 @@
 
 #body-box {
   background: #fff;
-  height: 900px;
+  height: 620px;
   border-radius: 0 0 30px 30px;
 }
 
 .left-panel {
-  padding: 20px 25px 0 20px;
+  padding: 20px 0px 0 20px;
+}
+
+h2 {
+  color: #317900;
+  font-size: 1.25em;
 }
 
 .right-panel {
-  padding: 20px 20px 60px 25px;
+  padding: 20px 20px 0 25px;
 }
 
 .refine-search {
   padding: 15px;
   border-radius: 20px;
   background: #E1FFCF;
-  height: 880px;
+  height: 600px;
 }
 
 .body-wrapper, .footer {
@@ -162,6 +167,12 @@
 
 .breadcrumbs {
   width: 30%;
+  margin-left: 14px;
+  margin-bottom: 10px;
+}
+
+.sort-row label {
+  margin: 10px 10px 0 0;
 }
 
 .sort-row select {
@@ -172,4 +183,12 @@
   height: 100px;
   width: 100px;
   background: #E1FFCF;
+  margin: 0 auto;
+}
+
+.item-grid p {
+  font-size: .75em;
+  color: #317900;
+  margin-bottom: 5px;
+  text-align: center;
 }
