@@ -205,11 +205,11 @@ h2 {
 .search-field input[type="submit"] {
   border-radius: 25px;
   color:#E1FFCF;
-  background-color: #317900;
+  background-color: #7BC123;
 }
 
 ul.pagination li.current a, ul.pagination li.current button {
-  background: #317900;
+  background: #7BC123;
 }
 
 .radio-indent div {
@@ -236,4 +236,9 @@ ul.pagination li.current a, ul.pagination li.current button {
 
 .size input {
   margin: 0;
+}
+
+select {
+  background-color: #fff;
+  border-color: #7BC123;
 }
