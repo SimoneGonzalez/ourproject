@@ -148,6 +148,11 @@
 h2 {
   color: #317900;
   font-size: 1.25em;
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 15px auto 25px;
 }
 
 .right-panel {
@@ -159,6 +164,14 @@ h2 {
   border-radius: 20px;
   background: #E1FFCF;
   height: 680px;
+}
+
+.condition > .right {
+  margin-top: -23px;
+}
+
+.condition input {
+  margin: 0;
 }
 
 .body-wrapper, .footer {
@@ -198,7 +211,9 @@ h2 {
 }
 
 .search-field input[type="text"] {
-  width: 60%;
+  width: 71%;
+  height: 26px;
+  margin-right: 10px;
   display: inline-block;
 }
 
@@ -206,6 +221,9 @@ h2 {
   border-radius: 25px;
   color:#E1FFCF;
   background-color: #7BC123;
+  border: none;
+  font-weight: 100;
+  font-size: .75em;
 }
 
 ul.pagination li.current a, ul.pagination li.current button {
