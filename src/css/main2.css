@@ -137,7 +137,7 @@
 
 #body-box {
   background: #fff;
-  height: 600px;
+  height: 700px;
   border-radius: 0 0 30px 30px;
 }
 
@@ -165,5 +165,15 @@
 }
 
 .sort-row select {
-  width: 150px;}
+  width: 150px;
+}
 
+.green-box {
+  height: 150px;
+  width: 150px;
+  background: #E1FFCF;
+}
+
+.item-grid li {
+  margin: 10px;
+}
