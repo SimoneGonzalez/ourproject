@@ -159,3 +159,11 @@
 .body-wrapper, .footer {
   background: #58D0D4;
 }
+
+.breadcrumbs {
+  width: 30%;
+}
+
+.sort-row select {
+  width: 150px;}
+
