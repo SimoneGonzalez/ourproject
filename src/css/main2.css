@@ -218,6 +218,22 @@ ul.pagination li.current a, ul.pagination li.current button {
 
 .radio-indent input {
   margin-left: 25px;
+  margin-bottom: 2px;
   display: inline-block;
 }
 
+.top-label  {
+  margin-top: 10px;
+}
+
+.size {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  width: 60%;
+  margin: 0 auto 0 25px;
+}
+
+.size input {
+  margin: 0;
+}
