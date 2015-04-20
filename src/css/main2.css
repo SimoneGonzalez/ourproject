@@ -171,6 +171,10 @@ h2 {
   margin-bottom: 10px;
 }
 
+.breadcrumbs > * a {
+  color: #317900;
+}
+
 .sort-row label {
   margin: 10px 10px 0 0;
 }
@@ -191,9 +195,6 @@ h2 {
   color: #317900;
   margin-bottom: 0;
   text-align: center;
-}
-
-.search-field {
 }
 
 .search-field input[type="text"] {
