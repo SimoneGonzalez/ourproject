@@ -200,3 +200,9 @@ h2 {
   width: 60%;
   display: inline-block;
 }
+
+.search-field input[type="submit"] {
+  border-radius: 25px;
+  color:#E1FFCF;
+  background-color: #317900;
+}
