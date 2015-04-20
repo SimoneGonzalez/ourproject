@@ -189,6 +189,14 @@ h2 {
 .item-grid p {
   font-size: .75em;
   color: #317900;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   text-align: center;
+}
+
+.search-field {
+}
+
+.search-field input[type="text"] {
+  width: 60%;
+  display: inline-block;
 }
