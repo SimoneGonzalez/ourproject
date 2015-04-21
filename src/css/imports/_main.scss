@@ -1,0 +1,65 @@
+.body-wrapper {
+  background-color: $body-wrapper;
+}
+
+#body-box {
+  background-color: #fff;
+  border-radius: 0 0 50px 50px;
+}
+
+#content-body {
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+#content-body div.small-7 h2 {
+  font-size: 1.2em;
+  color: $button-2;
+  font-family: chunkfiveroman;
+  padding-left: 2.5%;
+}
+
+#content-body div.small-7 p {
+  color: $content-body;
+}
+
+.pictures img:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.tree div img {
+  margin-top: 96%;
+}
+
+.hr hr {
+  background-image: url(/img/homepage/dotted_line_44x9.png);
+  background-repeat: repeat-x;
+  width: 95%;
+  height: 0px;
+  border: 0px solid black;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#body-box div:last-child div.small-12 ul {
+  padding-left: 5%;
+  margin-top: -2.5%;
+}
+
+#body-box div:last-child div.small-12 ul li:nth-child(2) {
+  margin-top: 11px;
+}
+
+#body-box div:last-child div.small-12 ul li:nth-child(3) {
+  margin-top: 19px;
+}
+
+#body-box div:last-child div.small-12 ul li:nth-child(4) {
+  margin-top: 3px;
+}
+
+#body-box div:last-child div.small-12 ul li img {
+  width: 80%;
+}
+
+

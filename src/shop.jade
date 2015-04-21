@@ -1,0 +1,218 @@
+extends ./_layout.jade
+
+block title
+  title Savings Multiplied - Shop
+  link(rel='stylesheet', href='css/main.css')
+
+block content
+  .row.sign-in
+  .header-wrapper
+    .row
+      .small-10.small-offset-1.columns
+        #header-box
+          .small-6.columns
+            img(src='/img/savings-multiplied-logo.png', alt='Savings Multiplied logo')
+          .small-6.columns.text-center
+            #sign-in.text-right
+              a(href='#') sign in
+              a(href='#') sign up
+            .small-12.columns
+              ul.button-group.buttons
+                li.button.tiny.round About
+                li.button.tiny.round Contact
+                li.button.tiny.round Blog
+                li.button.tiny.round Press
+            .small-12.columns
+              img(src='/img/tagline.png', alt='Where parents of multiples save, sell, and share')
+  nav.top-bar(data-topbar='', role='navigation')
+    .row
+      .small-12.columns
+        section.top-bar-section
+          ul
+            li Buy
+            li Sell
+            li How it Works
+            li Links
+            li Community
+            li.has-form
+              .row-collapse.prefix-round
+                .small-12.columns
+                  input.button.round(type='text', value='search')
+  .body-wrapper
+    .row
+      .small-10.small-offset-1.columns
+        #body-box
+          .left-panel.small-4.columns
+            .refine-search
+              h2 Limit your search by:
+              hr
+              form
+                .search-field
+                  input(type='text', name='search')
+                  input(type='submit', value='search')
+                .condition.clearfix
+                  label(for='condition') Condition:
+                  .right
+                    div
+                      input(type='radio', name='condition', value='new')
+                      label(for='new') New
+                    div
+                      input(type='radio', name='condition', value='used')
+                      label(for='used') Gently Used
+                div
+                  label(for='size') Size:
+                  .size
+                    input(type='radio', name='size', value='4')
+                    label(for='4') 4
+                    input(type='radio', name='size', value='5')
+                    label(for='5') 5
+                    input(type='radio', name='size', value='6')
+                    label(for='6') 6
+                    input(type='radio', name='size', value='7')
+                    label(for='7') 7
+                    input(type='radio', name='size', value='8')
+                    label(for='8') 8
+                    input(type='radio', name='size', value='9')
+                    label(for='9') 9
+                    input(type='radio', name='size', value='10')
+                    label(for='10') 10
+                    input(type='radio', name='size', value='11')
+                    label(for='11') 11
+                .radio-indent
+                  label.top-label(for='season') Season:
+                  div
+                    input(type='radio', name='season', value='all')
+                    label(for='all') All Seasons
+                  div
+                    input(type='radio', name='season', value='spring')
+                    label(for='spring') Spring
+                  div
+                    input(type='radio', name='season', value='summer')
+                    label(for='summer') Summer
+                  div
+                    input(type='radio', name='season', value='fall')
+                    label(for='fall') Fall
+                  div
+                    input(type='radio', name='season', value='winter')
+                    label(for='winter') Winter
+                .radio-indent
+                  label.top-label(for='type') Type:
+                  div
+                    input(type='radio', name='type', value='any')
+                    label(for='any') Any
+                  div
+                    input(type='radio', name='type', value='one-piece')
+                    label(for='one-piece') One-Piece
+                  div
+                    input(type='radio', name='type', value='tops')
+                    label(for='tops') Tops
+                  div
+                    input(type='radio', name='type', value='bottoms')
+                    label(for='bottoms') Bottoms
+                div
+                  label.top-label(for='brand') Brand:
+                  select
+                    option(name='brand', value='janie-and-jack') Janie and Jack
+          .right-panel.small-8.columns
+            .row
+              ul.breadcrumbs
+                li
+                  a(href='#') All
+                li
+                  a(href='#') Twin
+                li
+                  a.current(href='#') B/G
+            .sort-row.clearfix
+              label.left(for='sort') Sort by:
+              select.left
+                option(name='sort', value='price') Price
+                option(name='sort', value='rating') Customer Rating
+                option(name='sort', value='reviews') Most Reviews
+                option(name='sort', value='newest') Newest
+              ul.pagination.right
+                li.arrow.unavailable
+                  a(href='') &laquo;
+                li.current
+                  a(href='') 1
+                li
+                  a(href='') 2
+                li
+                  a(href='') 3
+                li.arrow
+                  a(href='') &raquo;
+            ul.item-grid.small-block-grid-2.medium-block-grid-3.large-block-grid-4
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+              li
+                div
+                  .green-box
+                  p Sailor Suits $15.00
+                  p Jane Joe 4 hours
+    .row
+      .footer.small-10.small-offset-1.columns
+        ul.inline-list
+          li
+            a(href='#') Link here
+          li
+            a(href='#') Link here
+          li
+            a(href='#') Link here
+          li
+            a(href='#') Link here
+          li
+            a(href='#') Link here
+          li
+            a(href='#') Link here

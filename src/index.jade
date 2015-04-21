@@ -1,0 +1,90 @@
+extends ./_layout
+
+block title
+  title Savings Multiplied
+  link(rel='stylesheet', href='css/index.css')
+
+block content
+  .row.sign-in
+  .header-wrapper
+    .row
+      .small-10.small-offset-1.columns
+        #header-box
+          .small-6.columns
+            p
+              img(src='/img/savings-multiplied-logo.png', alt='Savings Multiplied logo')
+          .small-6.columns.text-center
+            #sign-in.text-right
+              a(href='#') sign in
+              a(href='#') sign up
+            .small-12.columns
+              ul.button-group.buttons
+                li.button.tiny.round About
+                li.button.tiny.round Contact
+                li.button.tiny.round Blog
+                li.button.tiny.round Press
+            .small-12.columns
+              img(src='/img/tagline.png', alt='Where parents of multiples save, sell, and share')
+  nav.top-bar(data-topbar='', role='navigation')
+    .row
+      .small-12.columns
+        section.top-bar-section
+          ul
+            li Buy
+            li Sell
+            li How it Works
+            li Links
+            li Community
+            li.has-form
+              .row-collapse.prefix-round
+                .small-12.columns
+                  input.button.round(type='text', value='search')
+  .body-wrapper
+    .row
+      .small-10.small-offset-1.columns
+        #body-box
+          #content-body.row
+            .small-7.columns
+              h2 We&apos;re making one aspect of life easier for parents of multiples:
+              p
+                img(src='/img/homepage/owl_44_44.png', alt='Owl icon')
+                |                   buying and selling gently used sets of clothes!
+              img(src='/img/homepage/left_2_shop_now.png', alt='Shop now')
+              .row.tree
+                .small-3.columns.small-offset-9
+                  img(src='/img/homepage/tree.png', alt='tree')
+            .small-5.columns.pictures
+              img(src='/img/children/twins.jpg', alt='Twins')
+              img(src='/img/children/triplets.jpg', alt='Triplets')
+              img(src='/img/children/quads.jpg', alt='Quadruplets')
+          .hr
+            hr
+          .row
+            .small-12.columns
+              ul.small-block-grid-4
+                li
+                  img(src='/img/homepage/facebook_callout.png', alt='callout')
+                li
+                  img(src='/img/homepage/twitter_callout.png', alt='callout')
+                li
+                  img(src='/img/homepage/message_board_callout.png', alt='callout')
+                li
+                  img(src='/img/homepage/special_offers_callout.png', alt='callout')
+        footer.row
+          .small-12.columns
+            .row
+              .small-10.small-offset-1.columns.text-center.footer-links
+                ul.inline-list
+                  li
+                    a(href='#') Link here
+                  li
+                    a(href='#') Link here
+                  li
+                    a(href='#') Link here
+                  li
+                    a(href='#') Link here
+                  li
+                    a(href='#') Link here
+                  li
+                    a(href='#') Link here
+
